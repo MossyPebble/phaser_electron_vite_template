@@ -2,8 +2,8 @@ const { app, BrowserWindow } = require('electron');
 
 function createWindow() {
     mainWindow = new BrowserWindow({
-        width: 1000,
-        height: 800,
+        width: 640,
+        height: 360,
     });
 
     mainWindow.setMenu(null);

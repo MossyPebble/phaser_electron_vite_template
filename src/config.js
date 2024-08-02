@@ -1,8 +1,8 @@
 import Phaser from "phaser";
 
 const config = {
-    width: 1000,
-    height: 800,
+    width: 640,
+    height: 360,
     scale: {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH
