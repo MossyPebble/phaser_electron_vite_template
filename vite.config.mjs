@@ -23,7 +23,7 @@ export default defineConfig(() => {
                     manualChunks: {
                         phaser: ['phaser']
                     },
-                    dir: 'build',
+                    dir: resolve(__dirname, 'build'),
                     entryFileNames: '[name].js',
                 }
             }
